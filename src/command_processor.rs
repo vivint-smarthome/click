@@ -419,9 +419,9 @@ Examples:\n\
  logs the-cont | grep \"foo bar\" >> /tmp/logs.txt";
 
 static COMPLETIONHELP: &str = "There are two completion types: list or circular.
-- list: complete the next full match (like in Vim by default) (do: set completion list)
+- list: complete the next full match (like in Vim by default) (do: set completion_type list)
 - circular: complete until the longest match. If there is more than one match, \
-it will list all matches (like in Bash/Readline). (do: set completion circular)";
+it will list all matches (like in Bash/Readline). (do: set completion_type circular)";
 
 static EDITMODEHELP: &str = "There are two edit modes: vi or emacs.
 This controls the style of editing and the standard keymaps to the mode used by the \
